@@ -1,0 +1,19 @@
+mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: meethere
+    volumes: 
+        - ./mysql-docker-startup:/docker-entrypoint-initdb.d
+
+tomcat:
+    image: tomcat:9.0.35-jdk8-openjdk
+    ports:
+        - "12580:8080"
+    environment: 
+        MYSQL_IP: mysql
+    volumes: 
+        - ./tomcat-docker-startup:/usr/local/tomcat/webapps
+    links:
+        - mysql

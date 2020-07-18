@@ -1,0 +1,17 @@
+{
+  "sProcessing": "������...",
+  "sLengthMenu": "_MENU_ ��¼/ҳ",
+  "sZeroRecords": "û��ƥ��ļ�¼",
+  "sInfo": "��ʾ�� _START_ �� _END_ ���¼���� _TOTAL_ ��",
+  "sInfoEmpty": "��ʾ�� 0 �� 0 ���¼���� 0 ��",
+  "sInfoFiltered": "(�� _MAX_ ���¼����)",
+  "sInfoPostFix": "",
+  "sSearch": "����:",
+  "sUrl": "",
+  "oPaginate": {
+    "sFirst": "��ҳ",
+    "sPrevious": "��ҳ",
+    "sNext": "��ҳ",
+    "sLast": "ĩҳ"
+  }
+}
